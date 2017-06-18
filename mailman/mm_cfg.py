@@ -57,12 +57,12 @@ MAILMAN_SITE_LIST = 'mailman'
 #-------------------------------------------------------------
 # If you change these, you have to configure your http server
 # accordingly (Alias and ScriptAlias directives in most httpds)
-DEFAULT_URL_PATTERN = 'http://%s/cgi-bin/mailman/'
+DEFAULT_URL_PATTERN = 'http://%s/mailman/'
 IMAGE_LOGOS         = '/images/mailman/'
 
 #-------------------------------------------------------------
 # Default domain for email addresses of newly created MLs
-DEFAULT_EMAIL_HOST = 'lists.dezentrale.space'
+DEFAULT_EMAIL_HOST = 'dezentrale.space'
 #-------------------------------------------------------------
 # Default host for web interface of newly created MLs
 DEFAULT_URL_HOST   = 'lists.dezentrale.space'
@@ -72,7 +72,7 @@ add_virtualhost(DEFAULT_URL_HOST, DEFAULT_EMAIL_HOST)
 
 #-------------------------------------------------------------
 # The default language for this server.
-DEFAULT_SERVER_LANGUAGE = 'en'
+DEFAULT_SERVER_LANGUAGE = 'de'
 
 #-------------------------------------------------------------
 # Iirc this was used in pre 2.1, leave it for now
