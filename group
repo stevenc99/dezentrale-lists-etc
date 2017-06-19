@@ -45,3 +45,4 @@ lokke:x:1001:
 ssl-cert:x:104:
 mysql:x:105:
 Debian-exim:x:106:
+munin:x:107:
