@@ -12,6 +12,9 @@ abuse: root
 noc: root
 security: root
 
+listmaster: root
+
+## mailman mailing list
 mailman:              "|/var/lib/mailman/mail/mailman post mailman"
 mailman-admin:        "|/var/lib/mailman/mail/mailman admin mailman"
 mailman-bounces:      "|/var/lib/mailman/mail/mailman bounces mailman"
@@ -22,3 +25,15 @@ mailman-owner:        "|/var/lib/mailman/mail/mailman owner mailman"
 mailman-request:      "|/var/lib/mailman/mail/mailman request mailman"
 mailman-subscribe:    "|/var/lib/mailman/mail/mailman subscribe mailman"
 mailman-unsubscribe:  "|/var/lib/mailman/mail/mailman unsubscribe mailman"
+
+## vorstand mailing list
+vorstand:              "|/var/lib/mailman/mail/mailman post vorstand"
+vorstand-admin:        "|/var/lib/mailman/mail/mailman admin vorstand"
+vorstand-bounces:      "|/var/lib/mailman/mail/mailman bounces vorstand"
+vorstand-confirm:      "|/var/lib/mailman/mail/mailman confirm vorstand"
+vorstand-join:         "|/var/lib/mailman/mail/mailman join vorstand"
+vorstand-leave:        "|/var/lib/mailman/mail/mailman leave vorstand"
+vorstand-owner:        "|/var/lib/mailman/mail/mailman owner vorstand"
+vorstand-request:      "|/var/lib/mailman/mail/mailman request vorstand"
+vorstand-subscribe:    "|/var/lib/mailman/mail/mailman subscribe vorstand"
+vorstand-unsubscribe:  "|/var/lib/mailman/mail/mailman unsubscribe vorstand"
