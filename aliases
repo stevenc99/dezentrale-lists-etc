@@ -14,6 +14,8 @@ security: root
 
 listmaster: root
 
+konto: vorstand
+
 ## mailman mailing list
 mailman:              "|/var/lib/mailman/mail/mailman post mailman"
 mailman-admin:        "|/var/lib/mailman/mail/mailman admin mailman"
@@ -37,6 +39,18 @@ debate-owner:        "|/var/lib/mailman/mail/mailman owner debate"
 debate-request:      "|/var/lib/mailman/mail/mailman request debate"
 debate-subscribe:    "|/var/lib/mailman/mail/mailman subscribe debate"
 debate-unsubscribe:  "|/var/lib/mailman/mail/mailman unsubscribe debate"
+
+## members mailing list
+members:              "|/var/lib/mailman/mail/mailman post members"
+members-admin:        "|/var/lib/mailman/mail/mailman admin members"
+members-bounces:      "|/var/lib/mailman/mail/mailman bounces members"
+members-confirm:      "|/var/lib/mailman/mail/mailman confirm members"
+members-join:         "|/var/lib/mailman/mail/mailman join members"
+members-leave:        "|/var/lib/mailman/mail/mailman leave members"
+members-owner:        "|/var/lib/mailman/mail/mailman owner members"
+members-request:      "|/var/lib/mailman/mail/mailman request members"
+members-subscribe:    "|/var/lib/mailman/mail/mailman subscribe members"
+members-unsubscribe:  "|/var/lib/mailman/mail/mailman unsubscribe members"
 
 ## vorstand mailing list
 vorstand:              "|/var/lib/mailman/mail/mailman post vorstand"
