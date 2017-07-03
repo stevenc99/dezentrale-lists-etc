@@ -29,6 +29,18 @@ mailman-request:      "|/var/lib/mailman/mail/mailman request mailman"
 mailman-subscribe:    "|/var/lib/mailman/mail/mailman subscribe mailman"
 mailman-unsubscribe:  "|/var/lib/mailman/mail/mailman unsubscribe mailman"
 
+## announce mailing list
+announce:              "|/var/lib/mailman/mail/mailman post announce"
+announce-admin:        "|/var/lib/mailman/mail/mailman admin announce"
+announce-bounces:      "|/var/lib/mailman/mail/mailman bounces announce"
+announce-confirm:      "|/var/lib/mailman/mail/mailman confirm announce"
+announce-join:         "|/var/lib/mailman/mail/mailman join announce"
+announce-leave:        "|/var/lib/mailman/mail/mailman leave announce"
+announce-owner:        "|/var/lib/mailman/mail/mailman owner announce"
+announce-request:      "|/var/lib/mailman/mail/mailman request announce"
+announce-subscribe:    "|/var/lib/mailman/mail/mailman subscribe announce"
+announce-unsubscribe:  "|/var/lib/mailman/mail/mailman unsubscribe announce"
+
 ## discuss mailing list
 discuss:              "|/var/lib/mailman/mail/mailman post discuss"
 discuss-admin:        "|/var/lib/mailman/mail/mailman admin discuss"
