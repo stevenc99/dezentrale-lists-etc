@@ -17,6 +17,9 @@ listmaster: root
 # konto-*@ wildcard address
 konto: vorstand
 
+# this should have been konto-strom
+strom: konto
+
 ## mailman mailing list
 mailman:              "|/var/lib/mailman/mail/mailman post mailman"
 mailman-admin:        "|/var/lib/mailman/mail/mailman admin mailman"
